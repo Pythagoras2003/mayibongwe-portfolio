@@ -22,3 +22,6 @@ vendor/
 
 # Ignore git deploy branch
 gh-pages/
+# local git runtime files
+mingit/
+MinGit.zip
