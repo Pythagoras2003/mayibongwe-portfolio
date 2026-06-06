@@ -1,56 +1,110 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Mayibongwe Khumalo — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mayibongwe Khumalo | Eswatini Web Portfolio</title>
+  <meta name="description" content="Portfolio of Mayibongwe Khumalo, a student and web developer building responsive PHP/MySQL apps, student portal interfaces, and practical web experiences.">
+  <link rel="canonical" href="https://pythagoras2003.github.io/mayibongwe-portfolio/">
+  <meta name="theme-color" content="#1e2b4f">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mayibongwe Khumalo | Web Portfolio">
+  <meta property="og:description" content="Portfolio of Mayibongwe Khumalo from Eswatini Medical Christian University. Explore web projects built with PHP, MySQL, HTML, CSS, and JavaScript.">
+  <meta property="og:url" content="https://pythagoras2003.github.io/mayibongwe-portfolio/">
+  <meta property="og:site_name" content="Mayibongwe Portfolio">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mayibongwe Khumalo | Web Portfolio">
+  <meta name="twitter:description" content="Web portfolio of a student developer building useful applications for healthcare and education.">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1 class="name">Mayibongwe Khumalo</h1>
-      <p class="tag">Fourth-year student — Eswatini Medical Christian University</p>
-      <nav class="social">
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="container header-grid">
+      <div>
+        <p class="eyebrow">Web Portfolio</p>
+        <h1 class="name">Mayibongwe Khumalo</h1>
+        <p class="tag">Fourth-year student at Eswatini Medical Christian University | Web developer focused on practical apps for healthcare and learning</p>
+      </div>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#contact">Hire / Contact</a>
+        <a class="button button-secondary" href="#projects">View Projects</a>
+      </div>
     </div>
   </header>
 
+  <nav class="page-nav container">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <main class="container">
     <section id="about" class="card">
-      <h2>About</h2>
-      <p>Hi — I'm Mayibongwe, a fourth-year student at Eswatini Medical Christian University. I enjoy learning, building small web projects, and exploring tech that helps healthcare and education.</p>
+      <div class="section-header">
+        <span class="section-label">About me</span>
+        <h2>Student developer building modern web experiences</h2>
+      </div>
+      <p>Hi, I’m Mayibongwe. I enjoy creating web applications that solve real problems for users and support teams working in healthcare, education, and online services. I am learning fast and I am especially interested in PHP, MySQL, responsive HTML/CSS, and JavaScript.</p>
+    </section>
+
+    <section id="skills" class="card split-grid">
+      <div>
+        <h2>Skills & tools</h2>
+        <p>Working with common web technologies and building practical projects.</p>
+        <ul class="skill-list">
+          <li>PHP & MySQL</li>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive design</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+      <div class="highlight-box">
+        <p class="highlight-title">Current focus</p>
+        <p>Improving user interfaces, adding mobile-friendly layouts, and building auction systems with backend database support.</p>
+      </div>
     </section>
 
     <section id="projects" class="card">
-      <h2>Projects</h2>
-      <div class="grid">
+      <div class="section-header">
+        <span class="section-label">Featured work</span>
+        <h2>Projects I’ve built</h2>
+      </div>
+      <div class="grid project-grid">
         <article class="project">
-          <h3>Sample Auction Site</h3>
-          <p>A responsive auction application (example project). Technologies: PHP, MySQL, HTML/CSS, JavaScript.</p>
+          <h3>Online auction system</h3>
+          <p>Fully responsive auction platform built with PHP, MySQL, HTML, CSS, and JavaScript. Includes bidding, admin controls, and notifications.</p>
+          <a class="project-link" href="https://github.com/Pythagoras2003/mayibongwe-portfolio" target="_blank" rel="noreferrer">View GitHub</a>
         </article>
         <article class="project">
-          <h3>Student Portal Mock</h3>
-          <p>A design prototype for a student portal with profiles, schedules and notifications.</p>
+          <h3>Student portal prototype</h3>
+          <p>A student portal interface for profiles, schedules, announcements, and easy navigation.</p>
+          <a class="project-link" href="https://github.com/Pythagoras2003/mayibongwe-portfolio" target="_blank" rel="noreferrer">View GitHub</a>
         </article>
       </div>
-      <p>If you'd like to see source code or live demos, add links here.</p>
     </section>
 
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:kmayibongwe4@gmail.com">kmayibongwe4@gmail.com</a></p>
-      <p>Phone: <a href="tel:+26879713530">+268 79 713 530</a></p>
-      <p>GitHub: <a href="https://github.com/mayibongwe" target="_blank" rel="noreferrer">github.com/mayibongwe</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/mayibongwe-khumalo/" target="_blank" rel="noreferrer">linkedin.com/in/mayibongwe-khumalo</a></p>
+    <section id="contact" class="card contact-card">
+      <div class="section-header">
+        <span class="section-label">Get in touch</span>
+        <h2>Let’s work together</h2>
+      </div>
+      <p>If you want to discuss a project, internship, or collaboration, please reach out via email, phone, or LinkedIn.</p>
+      <div class="contact-list">
+        <a href="mailto:kmayibongwe4@gmail.com">kmayibongwe4@gmail.com</a>
+        <a href="tel:+26879713530">+268 79 713 530</a>
+        <a href="https://github.com/mayibongwe" target="_blank" rel="noreferrer">github.com/mayibongwe</a>
+        <a href="https://www.linkedin.com/in/mayibongwe-khumalo/" target="_blank" rel="noreferrer">linkedin.com/in/mayibongwe-khumalo</a>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">© <?= date('Y') ?> Mayibongwe Khumalo — Built with a simple responsive template.</div>
+    <div class="container">© 2026 Mayibongwe Khumalo • Built with responsive layout and clean metadata for GitHub Pages.</div>
   </footer>
 </body>
 </html>
