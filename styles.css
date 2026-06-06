@@ -1,0 +1,16 @@
+/* Simple responsive portfolio styles */
+:root{--bg:#f6f8fb;--card:#ffffff;--text:#0b1426;--muted:#54657e;--accent:#1e2b4f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:1rem}
+.site-header{background:linear-gradient(135deg,#1e2b4f,#2f4172);color:white;padding:2.5rem 0}
+.name{margin:0;font-size:2rem}
+.tag{margin:0.5rem 0;color:#dbe6ff}
+.social{margin-top:1rem}
+.social a{color:#dbe6ff;margin-right:1rem;text-decoration:none;font-weight:600}
+.card{background:var(--card);padding:1.25rem;border-radius:10px;margin-top:1.25rem;box-shadow:0 8px 20px -10px rgba(11,20,38,0.1)}
+.grid{display:grid;grid-template-columns:1fr;gap:1rem}
+.project h3{margin:0 0 0.25rem 0}
+.project p{margin:0}
+.site-footer{padding:1.25rem 0;color:var(--muted);text-align:center;margin-top:2rem}
+@media(min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}.name{font-size:2.6rem}}

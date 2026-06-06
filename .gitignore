@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Node / build artifacts (if any)
+node_modules/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+*.tmp
+
+# Composer / PHP
+vendor/
+
+# Ignore git deploy branch
+gh-pages/
