@@ -23,7 +23,7 @@ A custom, lightweight full-stack platform built to showcase my work efficiently 
 
 Tech Stack:PHP, MySQL, Vanilla JavaScript, CSS3
 Key Features: Secure admin panel with session validation, native database CRUD operations, automated WhatsApp client lead generation, and custom SQL transaction tracking.
- [View Code](https://github.com/pythagoras2003/portfolio-cms) 
+ [View Code](https://github.com/pythagoras2003/portfolio) 
 
 ⏱️ Online Auction Vehicle System
 A responsive, real-time web application built to simulate and handle live, timed bidding processes safely.
