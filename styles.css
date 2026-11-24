@@ -288,6 +288,29 @@ a {
   text-align: center;
   margin-top: 2rem;
 }
+.availability {
+  margin: 1rem 0 0;
+  color: #e9d5ff;
+  font-weight: 600;
+}
+.project-links {
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.project-links a {
+  color: #e9d5ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.project-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.project-links a:focus-visible {
+  outline: 2px solid #e9d5ff;
+  outline-offset: 3px;
+}
 @media (min-width: 720px) {
   .header-grid {
     grid-template-columns: 1.8fr 1fr;
